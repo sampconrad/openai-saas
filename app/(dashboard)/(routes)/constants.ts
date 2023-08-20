@@ -1,6 +1,6 @@
 import { CodeIcon, ImageIcon, LayoutDashboard, MessageSquare, MusicIcon, SettingsIcon, VideoIcon } from "lucide-react";
 
-export const routeConfig = [
+export const routesConfig = [
   {
     label: "Dashboard",
     href: "/dashboard",
@@ -12,7 +12,7 @@ export const routeConfig = [
   {
     label: "Text",
     href: "/text",
-    description: "",
+    description: "Conversation model",
     icon: MessageSquare,
     color: "text-violet-500",
     bgColor: "bg-violet-500/10",
@@ -20,7 +20,7 @@ export const routeConfig = [
   {
     label: "Image",
     href: "/image",
-    description: "",
+    description: "Image generation model",
     icon: ImageIcon,
     color: "text-pink-700",
     bgColor: "bg-pink-700/10",
@@ -28,7 +28,7 @@ export const routeConfig = [
   {
     label: "Video",
     href: "/video",
-    description: "",
+    description: "Video generation model",
     icon: VideoIcon,
     color: "text-orange-700",
     bgColor: "bg-orange-700/10",
@@ -36,7 +36,7 @@ export const routeConfig = [
   {
     label: "Audio",
     href: "/audio",
-    description: "",
+    description: "Audio generation model",
     icon: MusicIcon,
     color: "text-amber-400",
     bgColor: "bg-amber-400/10",
@@ -44,7 +44,7 @@ export const routeConfig = [
   {
     label: "Code",
     href: "/code",
-    description: "",
+    description: "Code generation model",
     icon: CodeIcon,
     color: "text-emerald-500",
     bgColor: "bg-emerald-500/10",

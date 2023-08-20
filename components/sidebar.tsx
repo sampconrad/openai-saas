@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation"
-import { routeConfig } from "@/config/route-config";
+import { routesConfig } from "@/app/(dashboard)/(routes)/constants";
 
 
 const Sidebar = () => {
@@ -22,7 +22,7 @@ const Sidebar = () => {
           </div>
         </Link>
         <div className="space-y-1">
-          {routeConfig.map((route) => (
+          {routesConfig.map((route) => (
             <Link
               href={route.href}
               key={route.href}
