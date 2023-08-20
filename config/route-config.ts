@@ -1,0 +1,60 @@
+import { CodeIcon, ImageIcon, LayoutDashboard, MessageSquare, MusicIcon, SettingsIcon, VideoIcon } from "lucide-react";
+
+export const routeConfig = [
+  {
+    label: "Dashboard",
+    href: "/dashboard",
+    description: "",
+    icon: LayoutDashboard,
+    color: "text-sky-500",
+    bgColor: "text-sky-500/10",
+  },
+  {
+    label: "Text",
+    href: "/text",
+    description: "",
+    icon: MessageSquare,
+    color: "text-violet-500",
+    bgColor: "bg-violet-500/10",
+  },
+  {
+    label: "Image",
+    href: "/image",
+    description: "",
+    icon: ImageIcon,
+    color: "text-pink-700",
+    bgColor: "bg-pink-700/10",
+  },
+  {
+    label: "Video",
+    href: "/video",
+    description: "",
+    icon: VideoIcon,
+    color: "text-orange-700",
+    bgColor: "bg-orange-700/10",
+  },
+  {
+    label: "Audio",
+    href: "/audio",
+    description: "",
+    icon: MusicIcon,
+    color: "text-amber-400",
+    bgColor: "bg-amber-400/10",
+  },
+  {
+    label: "Code",
+    href: "/code",
+    description: "",
+    icon: CodeIcon,
+    color: "text-emerald-500",
+    bgColor: "bg-emerald-500/10",
+  },
+  {
+    label: "Settings",
+    href: "/settings",
+    description: "",
+    icon: SettingsIcon,
+    color: "text-gray-400",
+    bgColor: "bg-gray-400/10",
+  },
+]

@@ -6,7 +6,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'OpenAI SaaS',
+  title: 'OxeAI',
   description: 'AI Platform',
 }
 
@@ -18,6 +18,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          <link rel='icon' href='/favicon.svg'/>
+        </head>
         <body className={inter.className}>{children}</body>
       </html>
     </ClerkProvider>
